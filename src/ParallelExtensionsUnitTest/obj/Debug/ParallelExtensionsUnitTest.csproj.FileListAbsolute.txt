@@ -1,0 +1,7 @@
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\bin\Debug\ParallelExtensionsUnitTest.dll
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\bin\Debug\ParallelExtensionsUnitTest.pdb
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\bin\Debug\ParallelExtensionsExtras.dll
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\bin\Debug\ParallelExtensionsExtras.pdb
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\obj\Debug\ParallelExtensionsUnitTest.csprojResolveAssemblyReference.cache
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\obj\Debug\ParallelExtensionsUnitTest.dll
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\ParallelExtensionsUnitTest\obj\Debug\ParallelExtensionsUnitTest.pdb

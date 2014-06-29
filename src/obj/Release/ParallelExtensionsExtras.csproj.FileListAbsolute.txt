@@ -1,0 +1,5 @@
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\bin\Release\ParallelExtensionsExtras.dll
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\bin\Release\ParallelExtensionsExtras.pdb
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\obj\Release\ParallelExtensionsExtras.csprojResolveAssemblyReference.cache
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\obj\Release\ParallelExtensionsExtras.dll
+D:\VSworkspace\visual studio 2010\C# samples\GitHub\ParallelExtensionsExtras-master\ParallelExtensionsExtras-master\src\obj\Release\ParallelExtensionsExtras.pdb
