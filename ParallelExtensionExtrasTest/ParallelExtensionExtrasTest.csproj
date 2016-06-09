@@ -54,6 +54,7 @@
     <Compile Include="CoordinationDataStructures\AsyncCoordination\AsyncBarrierTest.cs" />
     <Compile Include="CoordinationDataStructures\AsyncCoordination\AsyncCacheTest.cs" />
     <Compile Include="CoordinationDataStructures\AsyncCoordination\AsyncCallTest.cs" />
+    <Compile Include="CoordinationDataStructures\AsyncCoordination\AsyncProducerConsumerCollectionTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -2,3 +2,5 @@
 *.pdb
 [Oo]bj/
 [Bb]in/
+parallel-extensions-extras/ParallelExtensionsExtras.v12.suo
+*.suo
