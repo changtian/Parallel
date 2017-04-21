@@ -1,0 +1,44 @@
+MeteredWindowStore
+	MeteredWindowStore.init
+		MeteredWindowStore.put(key, value, timestamp)
+	
+CachingWindowStore
+	CachingWindowStore.init(ProcessorContext, StateStore)
+		MeteredWindowStore.init
+		
+		
+ThreadCache.addDirtyEntryFlushListener(namespace, DirtyEntryFlushListener)
+
+---------------------------------------------------------State Manage--------------------------------------------------------------------------
+StreamThread
+	run()
+		runLoop()
+			commitAll()
+				commitOne(StreamTask or StandbyTask)
+					ProcessorStateManager.flush(ProcessorContext)
+
+ProcessorStateManager.flush(ProcessorContext)
+	CachingWindowStore.flush()
+		ThreadCache.flush()
+			NameCache.flush()
+				DirtyEntryFlushListener.apply(List<ThreadCache.DirtyEntry> entries)
+				
+				
+-------------------------------------------------------Processor to DSL--------------------------------------------------------------------------
+
+KGroupedStreamImpl.reduce()
+	KGroupedStreamImpl.doAggregate()
+		KStreamAggProcessorSupplier
+			-- KStreamWindowAggregate
+					KStreamWindowAggregate$KStreamWindowAggregateProcessor.process(key, value)
+			-- KStreamWindowReduce
+					KStreamWindowReduce&KStreamWindowReduceProcessor.process(key, value)
+			-- KStreamReduce
+	
+
+-------------------------------------------------------Meter and Sensor-----------------------------------------------------------------------------
+Sensor: A sensor applies a continuous sequence of numerical values to a set of associated metrics.
+
+StreamsMetrics
+	StreamsMetrics.addLatencySensor
+	StreamsMetrics.recordLatency(sensor, startNS, time.nanoseconds())
