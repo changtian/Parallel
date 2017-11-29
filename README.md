@@ -83,3 +83,8 @@ Kafka stream:
 offset commit failure 怎么解决。 核心是consumer问题. consumer 调用poll方法来进行心跳。若超过一定时间(max.poll.interval.ms)则认为consumer挂掉了，会把consumer的partition分配给别的consumer(group repartition)，这时候调用commitSync有可能会发生offset commit failure。
 这是安全机制，保证只有group中活着的consumer能够commit offset。  
 通常使用consumer，是在一个while循环里面，调用poll接收多个数据(在kafkastream中最多为max.poll.records=1000,consumer默认最多500)，然后处理这些数据，如果一下子接收的数据太多，处理不过来，就可能导致这种group repartition发生，进而导致offset commit failure.
+
+G1 GC tuning
+https://t.hao0.me/jvm/2017/01/15/jvm-g1.html
+https://www.infoq.com/articles/tuning-tips-G1-GC
+https://blogs.apache.org/hbase/entry/tuning_g1gc_for_your_hbase
