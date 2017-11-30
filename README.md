@@ -88,3 +88,4 @@ G1 GC tuning
 https://t.hao0.me/jvm/2017/01/15/jvm-g1.html
 https://www.infoq.com/articles/tuning-tips-G1-GC
 https://blogs.apache.org/hbase/entry/tuning_g1gc_for_your_hbase
+https://blog.codecentric.de/en/2012/08/useful-jvm-flags-part-5-young-generation-garbage-collection/
