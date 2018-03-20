@@ -1,0 +1,27 @@
+Kafka stream doc
+1. 简介
+https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-simple/
+Kafka APIs
+https://kafka.apache.org/documentation/
+Kafka Stream APIs
+https://kafka.apache.org/documentation/streams
+Kafka upgrade & breaking
+
+2. kafka client redesign from v0.9
+https://cwiki.apache.org/confluence/display/KAFKA/Kafka+0.9+Consumer+Rewrite+Design
+https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Client-side+Assignment+Proposal
+
+I'm trying to consolidate the information from these wikis into the main
+protocol docs here:
+https://cwiki.apache.org/confluence/display/KAFKA/A+Guide+To+The+Kafka+Protocol
+
+kafka wiki: Committing and fetching consumer offsets in Kafka, is not updated after v0.9
+https://cwiki.apache.org/confluence/display/KAFKA/Committing+and+fetching+consumer+offsets+in+Kafka
+ConsumerMetadataRequest is renamed to GroupCoordinator request from v0.9, 
+acctual
+
+zookeeper split brain issue
+http://www.cnblogs.com/rainy-shurun/p/5414110.html
+
+org.apache.kafka.common.errors.TimeoutException: 
+Expiring 30 record(s) for consumergroup.prod-query-changelog-3: 30031 ms has passed since last attempt plus backoff time
